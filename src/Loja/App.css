@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.app {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.carrinho p, .produtos p {
+    display: inline-block;
+}
+
+.carrinho {
+    border: 1px solid red;
+    height: 100vh;
+    list-style: none;
+}
+
+.produtos {
+    border: 1px solid blue;
+    height: 100vh;
+}
+
+.produtos>div {
+    padding: 10px;
+}
+
+.carrinho>li {
+    padding: 10px;
+}
